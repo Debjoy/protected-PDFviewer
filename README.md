@@ -10,12 +10,12 @@ unfortunately it shows an error pdf as it need to be feeded with a POST request
 ----------
 ## Installation
 - Copy the web folder and the pdfView.php file to your server
-- Create a POST request feeding file value as the link of the pdf you want to view to the file pdfView.php
+- Create a POST request feeding file value as the link of the pdf you want to view to the file pdfView.php            
 Example:
 ```html
 <!DOCTYPE html>
 <form class="formpdf" action="pdfview.php" method="POST" target="_blank">
-  <button name="file" type="submit" value="**Enter the Copied URL here**">Have A Read</button>
+  <button name="file" type="submit" value="__Enter the Copied URL here__">Have A Read</button>
 </form>
 ```
 ---
